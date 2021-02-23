@@ -1,0 +1,595 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #9e9e9e;
+}
+
+#logo{
+  position: absolute; top: 0; left: 0;
+}
+
+#top_banner{
+  position: absolute;
+  top: 0;
+  height: 9%;
+  width: 100%;
+}
+
+#top_banner_text{
+  position: absolute;
+  margin-left: 13%;
+  top: 10%;
+  vertical-align: middle;
+}
+
+.teams{
+  height: 30px;
+  margin-left: 22px;
+  margin-top: 1.2%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#team1{
+    margin-left: 20%;
+}
+
+#bottom_banner{
+  position: absolute;
+  top: 9%;
+  height: 9%;
+  width: 100%;
+  background-image: url("bottom_banner.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#menu1{
+  width: 10.7%;
+  height: 91%;
+  float: left;
+  cursor: pointer;
+  float: left;
+}
+
+.menu1{
+  margin-left: 15%;
+}
+
+.menu1_1:hover{
+  border-bottom: 5px solid #e90052;
+}
+
+.menu1_2{
+  margin-left: 10%;
+}
+
+.menu1_2:hover{
+  border-bottom: 5px solid #e90052;
+}
+
+#menu1 h1{
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+}
+
+#navigation{
+  position: absolute;
+  top: 18%;
+  left: 15%;
+  width: 85%;
+  height: 8%;
+}
+
+#menu2{
+  height: 119%;
+  width: 9.09%;
+  margin-top: -1.3%;
+  float: left;
+  cursor: pointer;
+  color: #9e9e9e;
+}
+
+#menu2 h1{
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.menu2_1{
+  border-bottom: 5px solid #e90052;
+  color: #9e9e9e;
+}
+
+.menu2_2:hover{
+  border-bottom: 5px solid #9e9e9e;
+}
+
+#body{
+  position: absolute;
+  top: 26%;
+  width: 100%;
+  height: 74%;
+  background-image: url("background.jpg");
+  background-size:cover;
+}
+
+#fixtures_top{
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  height: 1%;
+  width: 20%;
+  background-color: #ff015b;
+  border-left: 5px solid #37003c;
+  border-right: 5px solid #37003c;
+}
+
+#fixtures{
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  height: 90%;
+  width: 20%;
+  background-color: white;
+  border-left: 5px solid #37003c;
+  border-right: 5px solid #37003c;
+  border-bottom: 5px solid #37003c;
+}
+
+#fixtures h1{
+  font-size: 15px;
+  text-align: center;
+}
+
+#fixtures img{
+  height: 11%;
+  margin-top: -7%;
+  margin-left: 20%;
+}
+
+#fixtures h2{
+  font-size: 15px;
+  text-align: center;
+  margin-top: -5%;
+}
+
+#fixtures h3{
+  font-size: 15px;
+  text-align: center;
+  margin-top: -3%;
+  color: gray;
+}
+
+#news_background{
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  height: 70%;
+  width: 64%;
+  background: #37003c;
+  border: 5px solid #37003c;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#news_background:hover{
+  transform: scale(1.03);
+}
+
+#news_image{
+  height: 100%;
+  float: left;
+}
+
+#news_background h1{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#news_background p{
+  color: white;
+  text-align: center;
+}
+
+#news_below{
+  position: absolute;
+  top: 79%;
+  left: 30%;
+  height: 17%;
+  width: 65%;
+  background-color: #37003c;
+}
+
+#manutd{
+  position: absolute;
+  height: 50%;
+  top: 25%;
+  left: 0;
+  float: left;
+}
+
+#manutd_text{
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 5%;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#fifa{
+  position: absolute;
+  height: 20%;
+  top: 40%;
+  left: 44%;
+  float: left;
+}
+
+#fifa_text{
+  position: absolute;
+  color: white;
+  top: 26%;
+  left: 50%;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#marca{
+  position: absolute;
+  height: 26%;
+  top: 37%;
+  left: 82.5%;
+}
+
+#marca_text{
+  position: absolute;
+  color: white;
+  top: 26%;
+  left: 90%;
+  font-size: 12px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#click1{
+  position: absolute;
+  top: 87%;
+  left: 30%;
+  height: 8%;
+  width: 14%;
+  cursor: pointer;
+}
+
+#click2{
+  position: absolute;
+  top: 87%;
+  left: 55%;
+  height: 8%;
+  width: 14%;
+  cursor: pointer;
+}
+
+#click3{
+  position: absolute;
+  top: 87%;
+  left: 80%;
+  height: 8%;
+  width: 14%;
+  cursor: pointer;
+}
+
+#fixture1{
+  position: relative;
+  top: -2%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture1_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture1_team1{
+  position: absolute;
+  top: 28%;
+  left: 8.2%;
+  height: 7.6%;
+}
+
+#fixture1_team2{
+  position: absolute;
+  top: 28%;
+  left: 20.2%;
+  height: 7.2%;
+}
+
+#fixture2{
+  position: relative;
+  top: -1.6%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture2_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture2_team1{
+  position: absolute;
+  top: 35.9%;
+  left: 8.2%;
+  height: 7%;
+}
+
+#fixture2_team2{
+  position: absolute;
+  top: 35.4%;
+  left: 20.4%;
+  height: 7.5%;
+}
+
+#fixture3{
+  position: relative;
+  top: -1.2%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture3_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture4{
+  position: relative;
+  top: -0.8%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture4_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture5{
+  position: relative;
+  top: -0.4%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture5_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture6{
+  position: relative;
+  top: 0%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture6_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture7{
+  position: relative;
+  top: 0.2%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture7_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture8{
+  position: relative;
+  top: 0.4%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture8_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture9{
+  position: relative;
+  top: 0.6%;
+  height: 8%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+#fixture9_time{
+  position: relative;
+  left: 40%;
+  height: 80%;
+  width: 20%;
+  background-color: #37003c;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#fixture3_team1{
+  position: absolute;
+  top: 43.9%;
+  left: 8.2%;
+  height: 7%;
+}
+
+#fixture3_team2{
+  position: absolute;
+  top: 43.6%;
+  left: 20.2%;
+  height: 6.9%;
+}
+
+#fixture4_team1{
+  position: absolute;
+  top: 51.7%;
+  left: 8.2%;
+  height: 6.9%;
+}
+
+#fixture4_team2{
+  position: absolute;
+  top: 51.6%;
+  left: 20.5%;
+  height: 6.8%;
+}
+
+#fixture5_team1{
+  position: absolute;
+  top: 59.7%;
+  left: 8.3%;
+  height: 6.6%;
+}
+
+#fixture5_team2{
+  position: absolute;
+  top: 59.6%;
+  left: 20.3%;
+  height: 6.6%;
+}
+
+#fixture6_team1{
+  position: absolute;
+  top: 67.3%;
+  left: 8.3%;
+  height: 6.6%;
+}
+
+#fixture6_team2{
+  position: absolute;
+  top: 67.4%;
+  left: 20.5%;
+  height: 6.5%;
+}
+
+#fixture7_team1{
+  position: absolute;
+  top: 75%;
+  left: 8.5%;
+  height: 6.5%;
+}
+
+#fixture7_team2{
+  position: absolute;
+  top: 75.2%;
+  left: 20.7%;
+  height: 6.5%;
+}
+
+#fixture8_team1{
+  position: absolute;
+  top: 82.4%;
+  left: 8.2%;
+  height: 6.3%;
+}
+
+#fixture8_team2{
+  position: absolute;
+  top: 83%;
+  left: 20.4%;
+  height: 6.2%;
+}
+
+#fixture9_team1{
+  position: absolute;
+  top: 90.2%;
+  left: 8.3%;
+  height: 6.6%;
+}
+
+#fixture9_team2{
+  position: absolute;
+  top: 90.6%;
+  left: 20.7%;
+  height: 6.4%;
+}
